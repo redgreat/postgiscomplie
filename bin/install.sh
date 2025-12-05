@@ -868,7 +868,7 @@ display_info() {
 
 # 主函数
 main() {
-    echo_info "开始编译安装 PostgreSQL ${PG_VERSION} 和 PostGIS ${POSTGIS_VERSION} (Rocky Linux 9)..."
+    echo_info "开始编译安装 PostgreSQL ${PG_VERSION} 和 PostGIS ${POSTGIS_VERSION} ..."
     
     check_root
     detect_os
